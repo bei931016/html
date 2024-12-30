@@ -1,0 +1,281 @@
+<html>
+    <head><title>明新科技大學棒球隊</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
+    <script>
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                rtl: true
+            });
+        });
+    </script>
+    <style>
+        *{
+            margin:0;
+            color:gray;
+            text-align:center;
+        }
+        /* top */
+        .top{
+             background-color: white;
+        }
+        .top .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:10px;
+        }
+        .top .logo{
+            /*border:1px solid red;*/
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .top .logo img{
+            width: 100px;
+            vertical-align: middle;
+        }
+        .top .top-nav{
+            /*border:1px solid red;*/
+            font-size: 25px;
+            font-weight: bold;       
+        }
+        .top .top-nav a{
+            text-decoration: none;
+        }
+        /* nav */
+        .nav {
+            background-color:#019858;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul {
+            list-style-type: none;  
+            margin: 0; 
+            padding: 0; 
+            overflow: hidden; 
+            background-color: #019858; 
+        }
+        .nav li {
+            float: left; 
+        }
+        .nav li a {    
+            display: block;  
+            color: white;  
+            text-align: center;  
+            padding: 14px 16px;  
+            text-decoration: none;  
+        }
+        .nav li a:hover {
+            background-color: #AE00AE; 
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;           }
+        li.dropdown:hover{
+            background-color:#750075;          }
+        .dropdown-content {              display: none;
+            position: absolute;
+            background-color:#750075;
+            min-width: 160px;
+            z-index: 1;
+        }
+        .dropdown-content a {/*設定下拉選單連結內容格式*/
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        /* slider */
+        .slider{
+            background-color: black;
+        }
+        /* banner*/
+        .banner{
+            background-image: linear-gradient(#00DB00,#BBFFBB);
+            padding:30px;
+        }
+        .banner h1{
+            padding: 20px;
+        }        
+        /*faculty*/
+        .faculty {
+            display: block;
+            justify-content: center;
+            background-color:white;
+            padding:40px;
+        }
+        .faculty h2 {
+            font-size: 25px;
+            color: rgb(50,51,52);
+            padding-bottom:40px;
+        }
+        .faculty .container {
+            /*border:1px solid red;*/
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .faculty .teacher{
+            /*border:1px solid blue;*/
+            display:block;
+            text-decoration: none;
+        }
+        .faculty .teacher img{
+            height: 200px;
+            width: 200px;
+        }
+        .faculty .teacher h3{
+            color: black;
+            background-color: rgba(0,0,0,0);
+            text-align: center;           
+        }
+        /*contact*/
+        .contact {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;                
+        }
+        .contact .container{
+            display: block;
+        }
+        .contact .container h2{
+            color: rgb(54, 82, 110);
+            font-size: 25px;
+        }
+        .contact .container .infos{
+            display:flex;
+            margin-top: 30px; 
+        }
+        .contact .container .infos .left{
+            display:block;
+            text-align: left;
+            margin-right: 30px;
+        }
+        .contact .container .infos .left b{
+            display:block;
+            text-align: left;
+            margin-top: 10px;
+            text-decoration: bold;
+            color: Gray;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        .contact .container .infos .left span{
+            display:block;
+            text-align: left;
+            margin-top: 10px;
+            color: rgba(39,40,34,0.5);
+            font-size: 16px;
+            padding-left: 27px;
+        }
+        .contact .container .infos .right{
+            height: 200px;               
+        }
+        .contact .container .infos .right iframe{
+            width: 100%;
+            height: 100%;
+        }
+        /*footer*/
+        .footer{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(25,26,30);
+            padding: 30px 0;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="top">
+            <div class="container">
+                <div class="logo">
+                  <img src="https://scontent.ftpe16-1.fna.fbcdn.net/v/t39.30808-6/335420174_189223493816410_1073934997944892885_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=0Ss4JvwBuREQ7kNvgGmzq9U&_nc_oc=Adi9q9b-r5HpBdKK3KUfK-Deyd_5LmoGH_oKXPDeXEkmPeuHicHPWQixG55MtXpWWtQ&_nc_zt=23&_nc_ht=scontent.ftpe16-1.fna&_nc_gid=AEBpHTtnFgzx1iRkUrRMqyW&oh=00_AYAHHfYCetJHE9377v8k9azudqTmJaets81zCr0lf9hGGg&oe=6778A8BE">
+                  明新科技大學棒球隊
+                </div>
+                <div class="top-nav">
+                  <a href=>明新科大帥氣迷人棒球隊一般組</a>
+                  </div>
+              </div>
+        </div>
+        <div class="nav">   
+            <ul>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#introduction">關於我們</a></li>
+                <li  class="dropdown"><a href="#faculty">年度成績</a>
+                    <div class="dropdown-content">
+                        <a href="#faculty">112 年度</a>
+                        <a href="#faculty">113 年度</a>
+                        
+                    </div>                       
+                </li>
+                <li><a href="#about">聯絡我們</a></li>
+            </ul>
+        </div>
+        <div class="slider">
+            <div class="flexslider" style="direction:rtl">
+                <ul class="slides">
+                    <li><img src="C:\Users\USER\Downloads\S__75980826_0.jpg" /></li>
+                    <li><img src="C:\Users\USER\Downloads\S__75980828_0.jpg" /></li>
+                    <li><img src="C:\Users\USER\Downloads\S__75980820_0.jpg" /></li>
+		    <li><img src="C:\Users\USER\Downloads\S__75980824_0.jpg" /></li>
+		    <li><img src="C:\Users\USER\Downloads\S__75980825_0.jpg" /></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner" id="introduction">
+            <h1>明新棒球隊一般組</h1>
+            <h1>總教練由前職棒球員擔任-林晨樺</h1>
+            <h1>全國大專比賽榮獲多次好成績</h1>
+        </div>
+        <div class="faculty" id="faculty">
+            <h2>年度成績</h2>
+            <div class="container">
+                <a class="teacher" href="">
+                    <img src="C:\Users\USER\Downloads\CE4FAF76-2241-41F5-A6DC-446C8F9AD29C.jpg" />
+                     <h3>112年 大專盃 <p>北二區冠軍</p> </h3>
+                </a>
+                <a class="teacher" href="">
+                   <img src="C:\Users\USER\Downloads\6D306F25-09D8-4CB2-9E9F-2B4465C95522.jpg" alt="人言盃">
+                <h3>112年度 人言盃  <p>年度總冠軍</p></h3>
+                </a>
+		<a class="teacher" href="">
+                    <img src="C:\Users\USER\Downloads\48B39922-3FA9-45BE-B5E9-11563B2BEA57.jpg" alt="大專盃">
+                <h3>112年 大專盃全國賽  <p>全國第二亞軍</p></h3>
+                </a>
+                <a class="teacher" href="">
+                    <img src="C:\Users\USER\Downloads\7C536E6F-FEF2-48AC-9F80-7CA5650D8B46.jpg" alt="大專盃">
+                <h3>113年度 大專盃  <p>北二區第四</p></h3>
+                </a>
+		<a class="teacher" href="">
+                    <img src="C:\Users\USER\Downloads\8094B5D9-0486-44B4-91A9-FE193D8F99A7.jpg" alt="人言盃">
+                <h3>113年度 人言盃  <p>上半季冠軍</p></h3>
+                </a>
+            </div>
+        </div>
+        <div class="contact" id="about">
+            <div class="container">
+                <h2>聯絡我們</h2>
+                <div class="infos">
+                    <div class="left">
+ 			<b> 姓名:邱柏睿</b>
+			<b> 電話:0911-222-333</b>
+			<b> 電子郵件:111222333444@gmail.com</b>
+                        <b>明新科技大學 棒球場</b>
+                        <span>304新竹縣新豐鄉新興路1號</span> 
+                    </div>
+                    <div class="right">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0731124871945!2d120.98796106004943!3d24.861352388889305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346837001be7a759%3A0x61a20dc01f584c33!2z5piO5paw56eR5aSn5qOS55CD5aC0!5e0!3m2!1szh-TW!2stw!4v1735578855922!5m2!1szh-TW!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2024 邱柏睿先生. 版權所有。
+        </div>
+     </body>
+</html>
